@@ -1,6 +1,4 @@
 # Environment
-.env
-.env.*
 !.env.example
 
 # ML training data & weights (never commit — use object storage / model host disk)
@@ -27,3 +25,6 @@ model/**/*.tar.gz
 # Client seed exports (regenerate locally; do not ship to production)
 client/prisma/*_export.csv
 client/prisma/*_export.csv~
+.vercel
+config.bat
+node_modules
