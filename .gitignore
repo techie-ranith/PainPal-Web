@@ -1,6 +1,4 @@
 # Environment
-.env
-.env.*
 !.env.example
 
 # ML training data & weights (never commit — use object storage / model host disk)
@@ -28,3 +26,5 @@ model/**/*.tar.gz
 client/prisma/*_export.csv
 client/prisma/*_export.csv~
 .vercel
+config.bat
+node_modules
